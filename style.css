@@ -1,0 +1,176 @@
+:root{
+  --pink:#f594a4;
+}
+  *{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  outline:none;
+  border:none;
+  text-decoration: capitalize;
+}
+html{
+  font-size: 80%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6 rem;
+  overflow-x:hidden ;
+}
+section{
+  padding:22px;
+}
+.f-nav{
+  position: fixed;
+  top:0;
+  background:white;
+  display:flex;
+  padding:22px;
+  justify-content: center;
+  justify-content: space-between;
+  z-index:1000;
+  font-weight:600;
+  box-shadow:0 .5rem 1rem rgb(0,0,0,.1); 
+}
+.f-nav img{
+  width:8%;
+  margin-left:24px;
+} 
+.about li{
+  display:flex;
+  margin-inline:22px;
+  list-style: none;
+}
+.about li a{
+  margin-inline:8px;
+}
+.icons{
+  display:flex;
+  margin-inline: 22px;
+}
+.icons i{
+  margin-inline: 8px;
+}
+.home{
+  display:flex;
+  align-items: center;
+  min-height:100vh;
+  background:#f56698;
+  background-position: center;
+.content{
+  max-width:50rem;
+  margin-inline:22px;
+}
+}
+.content h2{
+  font-size: 5rem;
+  color:whitesmoke;
+  font-family: serif;
+}
+.content span{
+  font-size: 2.5rem;
+  color:black;
+  padding:1rem 0;
+  line-height: 1.5;
+}
+.content h3{
+  font-size: 2rem;
+  color:white;
+}
+.content p{
+  font-size: 1.5rem;
+  color:#565252;
+  padding:1rem 0;
+  line-height: 1.5;
+}
+.btn{
+  display:inline-block ;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background:black;
+  color:white;
+  padding:22px;
+  cursor:pointer;
+  font-size:12px;
+}
+.image img{
+  width:600px;
+  height:70vh;
+  margin-top: 10%;
+}
+.image h2{
+  font-size:3rem;
+  color:black;
+}
+.image h4{
+  font-size:1rem;
+  color:black;
+}
+.image h3{
+  font-size:2rem;
+  color:white;
+}
+.image{
+  justify-content:space-around;
+  margin-inline:40px;
+  padding:22px;
+}
+.mostloved{
+  text-align:center;
+  padding:7px;
+}
+.cards{
+  display:flex;
+  justify-content:center;
+  justify-content:space-around;
+  padding:22px;
+
+.black img {
+  width:300px;
+  height:40vh;
+}
+.hazel img{
+  width:300px;
+  height:40vh;
+}
+.cotton img{
+  width:300px;
+  height:40vh;
+}
+.death img{
+  width:300px;
+  height:40vh;
+}
+}
+.footer{
+  justify-content: center;
+  justify-content: space-around;
+  padding: 22px;
+}
+.footer h2{
+  font-size: 4rem;
+  text-align: center;
+  color:deeppink;
+  font-family:cursive ;
+}
+.footer h3{
+  text-align: center;
+  color:black;
+}
+.footer p{
+  font-size: 2rem;
+  font-weight: bold;
+  color:black;
+  text-align: center;
+}
+.footer i{
+display:flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-inline: 8px;
+
+}
+
+
+
+
+
